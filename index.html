@@ -1,61 +1,13 @@
-<!DOCTYPE html>
-<html lang="id">
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dani Syam – Portfolio</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>danisyam095.github.io</title>
   </head>
-  <body class="bg-neutral-50 text-neutral-800">
-    <!-- Header -->
-    <header class="flex justify-between items-center max-w-5xl mx-auto py-6 px-4">
-      <h1 class="text-2xl font-semibold">Dani<span class="text-blue-600">Syam</span></h1>
-      <nav class="space-x-6 text-sm">
-        <a href="#projects" class="hover:text-blue-600">Projects</a>
-        <a href="#about" class="hover:text-blue-600">About</a>
-        <a href="#contact" class="hover:text-blue-600">Contact</a>
-      </nav>
-    </header>
-
-    <!-- Hero -->
-    <section class="max-w-5xl mx-auto mt-20 px-4 text-center">
-      <h2 class="text-4xl font-bold mb-4">Marketing meets Technology</h2>
-      <p class="text-neutral-600 max-w-lg mx-auto">
-        Saya Dani, marketing di FIF Group yang juga membangun sistem internal & aplikasi berbasis web modern untuk efisiensi bisnis.
-      </p>
-      <a href="#projects" class="mt-6 inline-block bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition">Lihat Proyek</a>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="max-w-5xl mx-auto mt-24 px-4">
-      <h3 class="text-2xl font-semibold mb-6">Proyek Terbaru</h3>
-      <div class="grid md:grid-cols-2 gap-6">
-        <div class="bg-white shadow p-4 rounded-xl hover:-translate-y-1 transition">
-          <h4 class="font-semibold mb-2">ERP Internal</h4>
-          <p class="text-sm text-neutral-600">Sistem ERP berbasis SvelteKit dengan BetterAuth & Drizzle ORM untuk pengelolaan transaksi internal.</p>
-        </div>
-        <div class="bg-white shadow p-4 rounded-xl hover:-translate-y-1 transition">
-          <h4 class="font-semibold mb-2">Harga Pasar App</h4>
-          <p class="text-sm text-neutral-600">Aplikasi berbasis React Native untuk menampilkan data harga pasar harian secara real-time.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- About -->
-    <section id="about" class="max-w-5xl mx-auto mt-24 px-4 text-center">
-      <h3 class="text-2xl font-semibold mb-4">Tentang Saya</h3>
-      <p class="max-w-2xl mx-auto text-neutral-600">
-        Saya menggabungkan pengalaman marketing dengan minat di teknologi dan automation. Fokus saya adalah membangun solusi digital yang meningkatkan efisiensi tim.
-      </p>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="max-w-5xl mx-auto mt-24 px-4 text-center mb-16">
-      <h3 class="text-2xl font-semibold mb-4">Hubungi Saya</h3>
-      <p class="text-neutral-600">Email: <a href="mailto:danisyamsudin095@gmail.com" class="text-blue-600 hover:underline">danisyamsudin095@gmail.com</a></p>
-      <p class="text-neutral-600 mt-2">GitHub: <a href="https://github.com/danisyam095" target="_blank" class="text-blue-600 hover:underline">github.com/danisyam095</a></p>
-    </section>
-
-    <footer class="text-center text-sm text-neutral-500 py-6 border-t">© 2025 Dani Syam</footer>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
